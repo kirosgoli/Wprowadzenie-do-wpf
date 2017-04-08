@@ -1,0 +1,15 @@
+﻿<Window x:Class="Żart.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Żart"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Label Content="Czy chcesz podwyżkę?&#xD;&#xA;" HorizontalAlignment="Left" Margin="174,24,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.306,0.093"/>
+        <Button x:Name="btnYes"  Margin="45,122,377,143" Content="Tak" MouseEnter="btnYes_MouseEnter" />
+        <Button x:Name="btnNo"  Margin="356,122,66,143" Content="Nie" />
+
+    </Grid>
+</Window>
