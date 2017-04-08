@@ -27,7 +27,9 @@ namespace Przywitanie
 
         private void btnStart_Click(object sender, RoutedEventArgs e)
         {
+            btnStart.Opacity = 0.5;
             MessageBox.Show("Witaj, świecie!");
+            btnStart.Opacity = 1;
         }
 
         private void btnTime_MouseEnter(object sender, MouseEventArgs e)
