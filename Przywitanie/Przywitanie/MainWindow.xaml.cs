@@ -42,5 +42,10 @@ namespace Przywitanie
         {
             btnTime.Content = "Czas";
         }
+
+        private void btnUaktywnij_Click(object sender, RoutedEventArgs e)
+        {
+            btnStart.IsEnabled = true;
+        }
     }
 }
