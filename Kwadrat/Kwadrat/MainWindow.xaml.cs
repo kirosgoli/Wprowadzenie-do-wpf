@@ -65,5 +65,15 @@ namespace Kwadrat
                 lblKomunikat.Content = "Brak danych lub zbyt duży bok";
             }
         }
+
+        private void rPokaz_Checked(object sender, RoutedEventArgs e)
+        {
+            Kwadrat.Visibility = Visibility.Visible;
+        }
+
+        private void rUkruj_Checked(object sender, RoutedEventArgs e)
+        {
+            Kwadrat.Visibility = Visibility.Hidden;
+        }
     }
 }

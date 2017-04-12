@@ -26,7 +26,8 @@
         <Label x:Name="lblKolor" Content="Kolor" HorizontalAlignment="Left" Margin="32,156,0,0" VerticalAlignment="Top"/>
         <Rectangle x:Name="Kwadrat" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="0" Margin="274,71,0,0" Stroke="Black" VerticalAlignment="Top" Width="0"/>
         <CheckBox x:Name="cPol" Content="Półprzezroczysty" HorizontalAlignment="Left" Margin="117,194,0,0" VerticalAlignment="Top"/>
-
+        <RadioButton x:Name="rUkruj" Content="Ukryj" HorizontalAlignment="Left" Margin="32,407,0,0" VerticalAlignment="Top" Checked="rUkruj_Checked" />
+        <RadioButton x:Name="rPokaz" Content="Pokaz" HorizontalAlignment="Left" Margin="250,407,0,0" VerticalAlignment="Top" Checked="rPokaz_Checked" IsChecked="True"/>
 
     </Grid>
 </Window>
