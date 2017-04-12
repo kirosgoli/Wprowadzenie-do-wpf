@@ -28,6 +28,7 @@
         <CheckBox x:Name="cPol" Content="Półprzezroczysty" HorizontalAlignment="Left" Margin="117,194,0,0" VerticalAlignment="Top"/>
         <RadioButton x:Name="rUkruj" Content="Ukryj" HorizontalAlignment="Left" Margin="32,407,0,0" VerticalAlignment="Top" Checked="rUkruj_Checked" />
         <RadioButton x:Name="rPokaz" Content="Pokaz" HorizontalAlignment="Left" Margin="250,407,0,0" VerticalAlignment="Top" Checked="rPokaz_Checked" IsChecked="True"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="582,23,0,0" VerticalAlignment="Top" Width="100" Source="App_Data/avatar_5988.png"/>
 
     </Grid>
 </Window>
