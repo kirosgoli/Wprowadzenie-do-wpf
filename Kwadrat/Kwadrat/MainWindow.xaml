@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:Kwadrat"
         mc:Ignorable="d"
         Title="Rysowanie kwadratu" Height="550" Width="700">
-    <Grid>
+    <Grid Background="LightGray">
         <Label x:Name="lblBok" Content="Bok" HorizontalAlignment="Left" Margin="32,30,0,0" VerticalAlignment="Top"/>
         <Label x:Name="lblPole" Content="Pole" HorizontalAlignment="Left" Margin="32,68,0,0" VerticalAlignment="Top"/>
         <Label x:Name="lblObwod" Content="Obwód" HorizontalAlignment="Left" Margin="32,108,0,0" VerticalAlignment="Top"/>
